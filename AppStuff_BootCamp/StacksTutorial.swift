@@ -13,6 +13,7 @@ struct StacksTutorial: View {
         VStack {
             VStack(alignment: .leading) {
                 Text("Top 10")
+                    .fontWeight(.heavy)
                 
                 HStack {
                     ZStack(alignment: .bottomTrailing) {
@@ -51,6 +52,8 @@ struct StacksTutorial: View {
             
             VStack(alignment: .leading) {
                 Text("Ranking")
+                    .fontWeight(.heavy)
+
                 
                 HStack {
                     ZStack(alignment: .topLeading) {
