@@ -14,9 +14,12 @@
 		B42F3843287481490022B602 /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3842287481490022B602 /* TextTutorial.swift */; };
 		B42F3845287481760022B602 /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3844287481760022B602 /* ShapesTutorial.swift */; };
 		B42F3847287484830022B602 /* ColorsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3846287484830022B602 /* ColorsTutorial.swift */; };
+		B4B0B0EC28770FD4006C9D08 /* GridsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B0B0EB28770FD4006C9D08 /* GridsTutorial.swift */; };
+		B4B0B0EE28771377006C9D08 /* InstagramProfileTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B0B0ED28771377006C9D08 /* InstagramProfileTutorial.swift */; };
 		B4C014062875B00A00037CD4 /* PaddingTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C014052875B00A00037CD4 /* PaddingTutorial.swift */; };
 		B4C014082875BD7200037CD4 /* SpacersTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C014072875BD7200037CD4 /* SpacersTutorial.swift */; };
 		B4C0140A2875D05C00037CD4 /* LoopsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C014092875D05C00037CD4 /* LoopsTutorial.swift */; };
+		B4C0140C2875D42700037CD4 /* ScrollViewTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0140B2875D42700037CD4 /* ScrollViewTutorial.swift */; };
 		B4FE5FD22875572A0016A9D9 /* IconsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE5FD12875572A0016A9D9 /* IconsTutorial.swift */; };
 		B4FE5FD4287562530016A9D9 /* StacksTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE5FD3287562530016A9D9 /* StacksTutorial.swift */; };
 /* End PBXBuildFile section */
@@ -30,9 +33,12 @@
 		B42F3842287481490022B602 /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
 		B42F3844287481760022B602 /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 		B42F3846287484830022B602 /* ColorsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTutorial.swift; sourceTree = "<group>"; };
+		B4B0B0EB28770FD4006C9D08 /* GridsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsTutorial.swift; sourceTree = "<group>"; };
+		B4B0B0ED28771377006C9D08 /* InstagramProfileTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramProfileTutorial.swift; sourceTree = "<group>"; };
 		B4C014052875B00A00037CD4 /* PaddingTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTutorial.swift; sourceTree = "<group>"; };
 		B4C014072875BD7200037CD4 /* SpacersTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersTutorial.swift; sourceTree = "<group>"; };
 		B4C014092875D05C00037CD4 /* LoopsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsTutorial.swift; sourceTree = "<group>"; };
+		B4C0140B2875D42700037CD4 /* ScrollViewTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTutorial.swift; sourceTree = "<group>"; };
 		B4FE5FD12875572A0016A9D9 /* IconsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsTutorial.swift; sourceTree = "<group>"; };
 		B4FE5FD3287562530016A9D9 /* StacksTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +73,7 @@
 		B42F3833287469520022B602 /* AppStuff_BootCamp */ = {
 			isa = PBXGroup;
 			children = (
+				B4B0B0EF2877138D006C9D08 /* Grids */,
 				B42F3834287469520022B602 /* AppStuff_BootCampApp.swift */,
 				B42F3836287469520022B602 /* ContentView.swift */,
 				B42F3842287481490022B602 /* TextTutorial.swift */,
@@ -77,6 +84,7 @@
 				B4C014052875B00A00037CD4 /* PaddingTutorial.swift */,
 				B4C014072875BD7200037CD4 /* SpacersTutorial.swift */,
 				B4C014092875D05C00037CD4 /* LoopsTutorial.swift */,
+				B4C0140B2875D42700037CD4 /* ScrollViewTutorial.swift */,
 				B42F3838287469530022B602 /* Assets.xcassets */,
 				B42F383A287469530022B602 /* Preview Content */,
 			);
@@ -89,6 +97,15 @@
 				B42F383B287469530022B602 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4B0B0EF2877138D006C9D08 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0B0EB28770FD4006C9D08 /* GridsTutorial.swift */,
+				B4B0B0ED28771377006C9D08 /* InstagramProfileTutorial.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,11 +179,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B42F3837287469520022B602 /* ContentView.swift in Sources */,
+				B4C0140C2875D42700037CD4 /* ScrollViewTutorial.swift in Sources */,
 				B4C0140A2875D05C00037CD4 /* LoopsTutorial.swift in Sources */,
+				B4B0B0EE28771377006C9D08 /* InstagramProfileTutorial.swift in Sources */,
 				B42F3843287481490022B602 /* TextTutorial.swift in Sources */,
 				B4FE5FD22875572A0016A9D9 /* IconsTutorial.swift in Sources */,
 				B4C014062875B00A00037CD4 /* PaddingTutorial.swift in Sources */,
 				B42F3847287484830022B602 /* ColorsTutorial.swift in Sources */,
+				B4B0B0EC28770FD4006C9D08 /* GridsTutorial.swift in Sources */,
 				B42F3835287469520022B602 /* AppStuff_BootCampApp.swift in Sources */,
 				B42F3845287481760022B602 /* ShapesTutorial.swift in Sources */,
 				B4C014082875BD7200037CD4 /* SpacersTutorial.swift in Sources */,
