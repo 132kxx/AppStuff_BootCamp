@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B427611A2877E706004B39F5 /* ButtonsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42761192877E706004B39F5 /* ButtonsTutorial.swift */; };
+		B427611C2877EE31004B39F5 /* StatePropertyTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427611B2877EE31004B39F5 /* StatePropertyTutorial.swift */; };
 		B42F3835287469520022B602 /* AppStuff_BootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3834287469520022B602 /* AppStuff_BootCampApp.swift */; };
 		B42F3837287469520022B602 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3836287469520022B602 /* ContentView.swift */; };
 		B42F3839287469530022B602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42F3838287469530022B602 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		B42F3843287481490022B602 /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3842287481490022B602 /* TextTutorial.swift */; };
 		B42F3845287481760022B602 /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3844287481760022B602 /* ShapesTutorial.swift */; };
 		B42F3847287484830022B602 /* ColorsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F3846287484830022B602 /* ColorsTutorial.swift */; };
+		B49161CA2878296E006FE2BE /* naviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49161C92878296E006FE2BE /* naviView.swift */; };
 		B4C014062875B00A00037CD4 /* PaddingTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C014052875B00A00037CD4 /* PaddingTutorial.swift */; };
 		B4C014082875BD7200037CD4 /* SpacersTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C014072875BD7200037CD4 /* SpacersTutorial.swift */; };
 		B4C0140A2875D05C00037CD4 /* LoopsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C014092875D05C00037CD4 /* LoopsTutorial.swift */; };
@@ -22,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42761192877E706004B39F5 /* ButtonsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsTutorial.swift; sourceTree = "<group>"; };
+		B427611B2877EE31004B39F5 /* StatePropertyTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyTutorial.swift; sourceTree = "<group>"; };
 		B42F3831287469520022B602 /* AppStuff_BootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStuff_BootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42F3834287469520022B602 /* AppStuff_BootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStuff_BootCampApp.swift; sourceTree = "<group>"; };
 		B42F3836287469520022B602 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +35,7 @@
 		B42F3842287481490022B602 /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
 		B42F3844287481760022B602 /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 		B42F3846287484830022B602 /* ColorsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTutorial.swift; sourceTree = "<group>"; };
+		B49161C92878296E006FE2BE /* naviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naviView.swift; sourceTree = "<group>"; };
 		B4C014052875B00A00037CD4 /* PaddingTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTutorial.swift; sourceTree = "<group>"; };
 		B4C014072875BD7200037CD4 /* SpacersTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersTutorial.swift; sourceTree = "<group>"; };
 		B4C014092875D05C00037CD4 /* LoopsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsTutorial.swift; sourceTree = "<group>"; };
@@ -77,6 +83,9 @@
 				B4C014052875B00A00037CD4 /* PaddingTutorial.swift */,
 				B4C014072875BD7200037CD4 /* SpacersTutorial.swift */,
 				B4C014092875D05C00037CD4 /* LoopsTutorial.swift */,
+				B42761192877E706004B39F5 /* ButtonsTutorial.swift */,
+				B427611B2877EE31004B39F5 /* StatePropertyTutorial.swift */,
+				B49161C92878296E006FE2BE /* naviView.swift */,
 				B42F3838287469530022B602 /* Assets.xcassets */,
 				B42F383A287469530022B602 /* Preview Content */,
 			);
@@ -162,12 +171,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B42F3837287469520022B602 /* ContentView.swift in Sources */,
+				B427611A2877E706004B39F5 /* ButtonsTutorial.swift in Sources */,
 				B4C0140A2875D05C00037CD4 /* LoopsTutorial.swift in Sources */,
 				B42F3843287481490022B602 /* TextTutorial.swift in Sources */,
 				B4FE5FD22875572A0016A9D9 /* IconsTutorial.swift in Sources */,
 				B4C014062875B00A00037CD4 /* PaddingTutorial.swift in Sources */,
 				B42F3847287484830022B602 /* ColorsTutorial.swift in Sources */,
+				B49161CA2878296E006FE2BE /* naviView.swift in Sources */,
 				B42F3835287469520022B602 /* AppStuff_BootCampApp.swift in Sources */,
+				B427611C2877EE31004B39F5 /* StatePropertyTutorial.swift in Sources */,
 				B42F3845287481760022B602 /* ShapesTutorial.swift in Sources */,
 				B4C014082875BD7200037CD4 /* SpacersTutorial.swift in Sources */,
 				B4FE5FD4287562530016A9D9 /* StacksTutorial.swift in Sources */,
